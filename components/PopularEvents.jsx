@@ -67,7 +67,7 @@ const PopularEvents = () => {
             <View className="flex flex-row justify-start gap-4 text-left items-center">
               <View className="w-[30%]">
                 <Image
-                  source={require("../assets/images/profile.png")}
+                  source={item.image}
                   className="h-[100px] w-[100px] rounded-lg"
                 />
               </View>

@@ -31,14 +31,14 @@ export const popularData = [
     name: "Arts Workshop",
     date: "Fri, July 28 -  13:00 - 16:00....",
     venue: "Jones Park",
-    image: "../assets/images/e1.png",
+    image: require("../assets/images/e1.png"),
   },
   {
     id: 2,
     name: "Developers Connect",
     date: "Mon, July 28 -  13:00 - 16:00...",
     venue: "Clinton's Park",
-    image: "../assets/images/e2.png",
+    image: require("../assets/images/e2.png"),
   },
 ];
 
@@ -48,7 +48,7 @@ export const featuredData = [
     name: "Clinton's Connect",
     date: "Fri, July 28 -  13:00 - 16:00....",
     venue: "Jones Park",
-    image: "../assets/images/e1.png",
+    image: require("../assets/images/f1.png"),
     type: "Free",
   },
   {
@@ -56,7 +56,7 @@ export const featuredData = [
     name: "Meet n Greet",
     date: "Mon, July 28 -  13:00 - 16:00...",
     venue: "Clinton's Park",
-    image: "../assets/images/e2.png",
+    image: require("../assets/images/f2.png"),
     type: "Paid",
   },
 ];

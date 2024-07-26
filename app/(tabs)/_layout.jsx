@@ -42,7 +42,7 @@ const TabsLayout = () => {
           tabBarBackground: () => (
             <BlurView
               tint="light"
-              intensity={50}
+              intensity={95}
               style={{
                 position: "absolute",
                 bottom: 0,
@@ -76,7 +76,7 @@ const TabsLayout = () => {
             headerShown: false,
             tabBarIcon: ({ color, focused }) => (
               <TabIcon
-                icon={icons.bookmark}
+                icon={icons.calendar}
                 color={color}
                 name="Events"
                 focused={focused}
@@ -91,7 +91,7 @@ const TabsLayout = () => {
             headerShown: false,
             tabBarIcon: ({ color, focused }) => (
               <TabIcon
-                icon={icons.plus}
+                icon={icons.bookmark}
                 color={color}
                 name="Favorites"
                 focused={focused}
